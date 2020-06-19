@@ -1,0 +1,85 @@
+header {
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 10%;
+
+    &__title {
+      font-family: 'Lobster', sans-serif;
+      font-weight: 400;
+      font-size: 50px;
+      color: #3cc3b5;
+    }
+
+    &__search {
+      background: url('../img/icons/search.png') right no-repeat;
+      background-origin: content-box;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      width: 35%;
+
+      padding: 5px;
+
+      outline: none;
+      border: 1px solid #e1e1e1;
+    }
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__price {
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 400;
+      font-size: 35px;
+      color: #a1a1a1;
+      margin-left: 15px;
+    }
+  }
+
+  .nav {
+    padding: 10px 10%;
+    background: #4ccfc1;
+    box-shadow: 0 4px 2px -2px gray;
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+    }
+
+    &__item {
+      margin: 0 10px;
+    }
+
+    &__link {
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 1015px) {
+  header .nav {
+    display: none;
+  }
+
+  header .info {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .info__search {
+    display: none;
+  }
+}

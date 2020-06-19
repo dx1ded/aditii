@@ -1,0 +1,42 @@
+footer {
+  background: #3dc9b9;
+  padding-top: 30px;
+
+  .footer__links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 20px;
+  }
+
+  .column {
+    display: inline-block;
+    margin: 0 80px 30px;
+  }
+
+  .link__title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .link__name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .footer__text {
+    background: #2da89b;
+    color: #fff;
+    text-align: center;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 0;
+  } 
+}

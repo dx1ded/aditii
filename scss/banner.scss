@@ -1,0 +1,90 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  background: #3dc9b9;
+  padding: 80px 0;
+
+  .slider__info {
+    margin-left: 6%;
+  }
+
+  .slider__img {
+    width: 278px;
+    height: 325px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .slider__title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+    color: #fff;
+    max-width: 350px;
+    line-height: 56px;
+  }
+
+  .slider__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0;
+    line-height: 28px;
+    max-width: 450px;
+  }
+
+  .slider__btn {
+    color: #fff;
+    background: none;
+    text-decoration: none;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+    padding: 5px 35px;
+    transition: .5s;
+
+    &:hover {
+      background: rgba(255, 255, 255, .6)
+    }
+  }
+
+  .slider__nav {
+    display: flex;
+    margin-top: 35px;
+
+    span {
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      border-radius: 50%;
+      margin-left: 10px;
+      cursor: pointer;
+
+      &.active {
+        background: rgba(255, 255, 255, .4);
+        cursor: default;
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .banner {
+    justify-content: flex-start;
+
+    .slider__img {
+      width: 178px;
+      height: 225px;
+      margin-bottom: 30px;
+    }
+  }
+}

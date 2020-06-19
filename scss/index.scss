@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Styles
+
+@import 'header';
+@import 'burger';
+@import 'banner';
+@import 'categories';
+@import 'products';
+@import 'footer';
